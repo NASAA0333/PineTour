@@ -1,129 +1,260 @@
-<!DOCTYPE html>
-<html lang="en">
+<html style="background-color: whitesmoke">
   <head>
-    <title>NewPineTour</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <title>PineTour</title>
+    <link rel="stylesheet" href="pinetour.css" />
   </head>
-  <body>
-    <header class="header">
-      <img class="img" src="logo.png" />
-    </header>
-    <h1 class="f-title">Khuvsgul Lake</h1>
-    <h1 class="f-m-title">TRIP</h1>
-    <div class="four-img">
-      <img class="image" src="image 30.png" />
-      <img class="image" src="image 31.png" />
-      <img class="image" src="image 32.png" />
-      <img class="image" src="image 33.png" />
+
+  <body style="margin: 0; padding-top: 80px">
+    <div class="header">
+      <img src="./logo.png" width="50px" height="42" />
     </div>
-    <div
-      style="display: flex; margin-top: 120px; justify-content: space-between"
+
+    <h1
+      style="
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: arial;
+        font-size: 72px;
+        color: #303010;
+      "
     >
-      <div style="margin: 0 138px 0 0">
-        <div style="margin-bottom: 80px">
-          <h3 class="f-m-title">TOUR | 6 DAYS</h3>
-          <h3 class="destination-title">Destination of Our Agency</h3>
-        </div>
+      Khuvusgul Lake
+    </h1>
+    <h2
+      style="
+        text-align: center;
+        color: #ababab;
+        font-size: 24px;
+        font-family: arial;
+        text-transform: uppercase;
+      "
+    >
+      Trip
+    </h2>
+    <div
+      class="four-pics"
+      style="width: 1200px; margin-left: auto; margin-right: auto"
+    >
+      <div class="image" style="background-image: url('./image 30.png')"></div>
+      <div class="image" style="background-image: url('./image 31.png')"></div>
+      <div class="image" style="background-image: url('./image 32.png')"></div>
+      <div class="image" style="background-image: url('./image 33.png')"></div>
+    </div>
+    <div style="height: 240px"></div>
+
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+        width: 1200px;
+      "
+    >
+      <div>
         <div style="display: flex">
-          <div class="sircles">
-            <div class="black-sircle">D1</div>
+          <div style="width: 358px">
+            <h1 style="font-size: 24px; color: #ababab">TOURS | 6 DAYS</h1>
+            <h1 style="font-size: 48px; color: #303010">
+              Destination of Our Agency
+            </h1>
           </div>
-          <div class="destinations">
-            <h3 class="destination-name">Sukhbaatar square</h3>
-            <h3 class="destination-location">Ulaanbator</h3>
+        </div>
+        <div>
+          <div class="card-destination">
+            <div class="card-destination-circle">
+              D1
+              <div class="picture-hover">
+                <img src="square.jpg" class="hoverpic" />
+              </div>
+            </div>
+            <div>
+              `
+              <div class="destination-name">Sukhbaatar square</div>
+              <div class="destination-location">Ulaanbaatar</div>
+            </div>
+          </div>
+          <div class="card-zuraas"></div>
+        </div>
+        <div class="card-destination">
+          <div class="card-destination-circle">
+            D2
+            <div class="picture-hover">
+              <img src="khvsgl.jpg" class="hoverpic" />
+            </div>
+          </div>
+          <div>
+            <div class="destination-name">Khuvusgul lake</div>
+            <div class="destination-location">Khuvusgul</div>
           </div>
         </div>
         <div class="card-zuraas"></div>
-        <div style="display: flex">
-          <div class="sircles">
-            <div class="black-sircle">D2</div>
+
+        <div class="card-destination">
+          <div class="card-destination-circle">
+            D3
+            <div class="picture-hover">
+              <img src="hgrgintgo.jpg" class="hoverpic" />
+            </div>
           </div>
-          <div class="destinations">
-            <h3 class="destination-name">Sukhbaatar square</h3>
-            <h3 class="destination-location">Ulaanbator</h3>
+          <div>
+            <div class="destination-name">Khorgiin togoo</div>
+            <div class="destination-location">Arkhangai</div>
+          </div>
+        </div>
+        <div class="card-zuraas" :></div>
+
+        <div class="card-destination">
+          <div class="card-destination-circle">
+            D4
+            <div class="picture-hover">
+              <img src="tsgnnur.jpg" class="hoverpic" />
+            </div>
+          </div>
+          <div>
+            <div class="destination-name">Terkhiin tsagaan lake</div>
+            <div class="destination-location">Arkhangai</div>
           </div>
         </div>
         <div class="card-zuraas"></div>
-        <div style="display: flex">
-          <div class="sircles">
-            <div class="black-sircle">D3</div>
+
+        <div class="card-destination">
+          <div class="card-destination-circle">
+            D5
+            <div class="picture-hover">
+              <img src="amar.jpeg" class="hoverpic" />
+            </div>
           </div>
-          <div class="destinations">
-            <h3 class="destination-name">Sukhbaatar square</h3>
-            <h3 class="destination-location">Ulaanbator</h3>
-          </div>
-        </div>
-        <div class="card-zuraas"></div>
-        <div style="display: flex">
-          <div class="sircles">
-            <div class="black-sircle">D4</div>
-          </div>
-          <div class="destinations">
-            <h3 class="destination-name">Sukhbaatar square</h3>
-            <h3 class="destination-location">Ulaanbator</h3>
+          <div>
+            <div class="destination-name">Amarbaysgalant monastery</div>
+            <div class="destination-location">Bulgan</div>
           </div>
         </div>
         <div class="card-zuraas"></div>
-        <div style="display: flex">
-          <div class="sircles">
-            <div class="black-sircle">D5</div>
+        <div class="card-destination">
+          <div class="card-destination-circle">
+            D6
+            <div class="picture-hover">
+              <img src="square.jpg" class="hoverpic" />
+            </div>
           </div>
-          <div class="destinations">
-            <h3 class="destination-name">Sukhbaatar square</h3>
-            <h3 class="destination-location">Ulaanbator</h3>
-          </div>
-        </div>
-        <div class="card-zuraas"></div>
-        <div style="display: flex">
-          <div class="sircles">
-            <div class="black-sircle">D6</div>
-          </div>
-          <div class="destinations">
-            <h3 class="destination-name">Sukhbaatar square</h3>
-            <h3 class="destination-location">Ulaanbator</h3>
+          <div>
+            <div class="destination-name">Sukhbaatar square</div>
+            <div class="destination-location">Ulaanbaatar</div>
           </div>
         </div>
       </div>
       <div style="display: flex">
-        <img
-          src="./picture 1.png"
-          style="border-radius: 21px; width: 692px; height: 845px"
-        />
+        <div style="display: flex">
+          <img
+            src="./picture 1.png"
+            style="border-radius: 21px; width: 692px; height: 845px"
+          />
+        </div>
       </div>
     </div>
-    <div class="second-titles">
-      <h2 class="f-m-title">PRICING</h2>
-      <h2 class="destination-title">Pricing of</h2>
-      <h2 class="destination-title">Our Agency</h2>
-    </div>
-    <div style="display: flex; justify-content: center; gap: 20px">
-      <div class="card">
-        <h2 style="margin: 0; font-size: 24px">Sterted pack</h2>
-        <ul class="price-menu">
-          <li class="card-item">Trip</li>
-          <li class="card-item">Hotel</li>
-          <li class="card-item">Breackfast</li>
-          <li class="card-item">Lunch</li>
-          <li class="card-item">Dinner</li>
-        </ul>
-        <div style="text-align: right; font-size: 32px">2100$</div>
-      </div>
 
-      <div class="card">
-        <h2 style="font-size: 24px">Luxury pack</h2>
-        <ul class="price-menu">
-          <li class="card-item">Startedr pack</li>
-          <li class="card-item">Flights</li>
-          <li class="card-item">Criuse trip</li>
-          <li class="card-item">Cruise trip</li>
-        </ul>
-        <div style="text-align: right; font-size: 32px">4200$</div>
+    <div style="justify-content: center; align-items: center">
+      <div style="width: 1000px; margin-left: auto; margin-right: auto">
+        <div style="text-align: center">
+          <h1 style="color: gray; font-size: 24px">PRICING</h1>
+          <h1 style="font-size: 48px; margin: 0">Pricing of</h1>
+          <h1 style="font-size: 48px; margin: 0; margin-bottom: 20px">
+            Our Agency
+          </h1>
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 20px">
+          <div class="card">
+            <h2 style="margin: 0; font-size: 24px">Sterted pack</h2>
+            <ul style="background-color: white; min-height: 200px">
+              <li class="card-item">Trip</li>
+              <li class="card-item">Hotel</li>
+              <li class="card-item">Breackfast</li>
+              <li class="card-item">Lunch</li>
+              <li class="card-item">Dinner</li>
+            </ul>
+            <div style="text-align: right; font-size: 32px">2100$</div>
+          </div>
+
+          <div class="card">
+            <h2 style="margin: 0; font-size: 24px">Luxury pack</h2>
+            <ul style="background-color: white; min-height: 200px">
+              <li class="card-item">Startedr pack</li>
+              <li class="card-item">Flights</li>
+              <li class="card-item">Criuse trip</li>
+              <li class="card-item">Cruise trip</li>
+            </ul>
+            <div style="text-align: right; font-size: 32px">4200$</div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="footer"></div>
+
+    <div
+      style="
+        background-color: #171717;
+        text-align: center;
+        height: 393px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div>
+        <div style="width: 261px; height: 93px">
+          <h1 style="font-size: 32px; color: #ffffff">Are you ready ?</h1>
+          <a href="./Order-now.html" class="button-order"> Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: #101010;
+        width: auto;
+        height: 228px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div style="display: flex; justify-content: space-between; width: 1280px">
+        <div style="justify-content: center">
+          <div
+            style="
+              color: #ffffff;
+              width: 81px;
+              font-size: 28px;
+              text-align: center;
+            "
+          >
+            Pine<br />Tour.
+          </div>
+        </div>
+        <div
+          style="
+            height: auto;
+            height: 68px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+          "
+        >
+          <div class="logoniih">
+            <img src="./FBLOGO.png" width="24px" height="24px" />
+            <h1 style="font-size: 18px; color: #ffffff; display: flex">
+              facebook
+            </h1>
+          </div>
+          <div class="logoniih">
+            <img src="./IGLOGO.png" width="24px" height="24px" />
+            <h1 style="font-size: 18px; color: #ffffff; display: flex">
+              instagram
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
